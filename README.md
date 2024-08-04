@@ -5,7 +5,7 @@
 - [x] Install docker: `sudo apt install docker.io`
 - [x] Install poetry: `pip install poetry`
 - [x] Create a docker file for your flask application. You can find an example [here](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
-- [x] Create a [.toml file](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml) and add required dependencies there: e.g. `python = "^3.10"` and set dicrectory name: `name = "poetry_docker"`
+- [x] Create a [.toml file](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml) with required dependencies there: e.g. `python = "^3.10"` and set dicrectory name: `name = "poetry_docker"`
 - [x] Make an empty lock file: `poetry.lock`
 - [x] Run: `poetry install`
 - [x] Run: `poetry lock`
