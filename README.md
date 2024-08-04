@@ -3,7 +3,7 @@
 **Dockering in VS code with .venv envioroment:**
 - [x] Install docker: `sudo apt  install docker.io`
 - [x] Install poetry `pip install poetry`
-- [x] Create a docker file for your flask application. You can find an example [here](https://github.com/fatemehsrz/Poetry_Docker/blob/main/docker-compose.yml).
+- [x] Create a docker file for your flask application. You can find an example [here](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
 - [x] Make a toml file and add required dependencies there: e.g. `python = "^3.10"` In toml file the name varibale musst be set with dicrectory name: `name = "poetry_docker"`
 - [x] Make an empty lock file: `poetry.lock`
 - [x] Run: `poetry install`
@@ -14,5 +14,5 @@
 **Docker Hub:**
 
 - [x] Check docker images: `docker images`
-- [x] Push image to the docker hub: `docker push USER_NAME/myflask_app:0.0.1`
-- [x] Pull image from the docker hub: `docker pull USER_NAME/myflask_app:0.0.1`
+- [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
+- [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
