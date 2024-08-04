@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <style>
+        #file-upload {
+            visibility: hidden;
+        }
+        .custom-file-upload {
+            margin-left: -20px;
+            float: right;
+        }
+        #text {
+            float: left;
+            display: inline;
+            width: 550px;
+            height: 30px;
+        }
+        #send {
+            float:left;
+        }
+        .row {
+            width: 90% !important;
+        }
+        .col-md-10 {
+            max-width: 100% !important;
+        }
+        #chatbox {
+            background-color: rgba(235, 247, 190, 0.951) !important;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="row">
+        <div class="col-md-10 mr-auto ml-auto">
+    <h1> Retrieval Q&A  with LangChain and Chroma DB </h1>
+    
+    <form>
+        <div id="chatbox">
+        
+    
+                
+             <div class="col-md-8 ml-auto mr-auto">
+            
+                <p class="botText"><span> Hi there, ask me about your documents.</span></p>
+            </div>
+            
+            
+        </div>
+        <div id="userInput" class="row">
+            <div class="col-md-10">
+                <input id="text" type="text" name="msg" placeholder="Message" class="form-control">
+                <input id="file-upload" type="file"/>
+            </div>
+        </div>
+    </form>
+    
+</div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+	    $("#text").val("");
+            var fileUpload = document.getElementById("file-upload").files[0];
+            var fileName = fileUpload ? fileUpload.name : "No file selected";
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+
+	    if (rawText)
+	    	$("#chatbox").append(userHtml);
+
+            var reader = new FileReader();
+
+            reader.onload = function (evt) {
+		if (fileUpload)
+			var userHtml2 = '<p class="userText"><img src="' + evt.target.result + '"  alt="image" width="250px"></p>';
+
+                $("#chatbox").append(userHtml2);
+                document.getElementById("userInput").scrollIntoView({
+                    block: "start",
+                    behavior: "smooth",
+                });
+
+                $.ajax({
+                    data: {
+                        msg: rawText,
+                        img: evt.target.result,
+                        imgName: fileName,
+                        imgExists: fileUpload ? true : false
+                    },
+                    type: "POST",
+                    url: "/get",
+                }).done(function(data) {
+                    var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+                    $("#chatbox").append($.parseHTML(botHtml));
+                    document.getElementById("userInput").scrollIntoView({
+                        block: "start",
+                        behavior: "smooth",
+                    });
+                });
+            }
+
+            reader.readAsDataURL(fileUpload? fileUpload: new Blob());
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+
+</html>
