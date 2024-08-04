@@ -1,4 +1,5 @@
 
+# Dockerizing a Flask Project
 
 **Dockerizing in VS code with .venv envioroment:**
 - [x] Install docker: `sudo apt install docker.io`
