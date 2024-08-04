@@ -22,6 +22,8 @@ CMD ["flask", "run", "--host", "0.0.0.0"]
 #CMD ["python3", "./app.py", "--host= localhost"]
 
 
+## ENV PATH="${PATH}:/root/.local/bin"
+
 ### docker build -t docker_test:0.0.5 .
 ### docker run -p 5000:5000 -t -i docker_test:0.0.5 
 
