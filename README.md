@@ -17,3 +17,6 @@
 - [x] Check docker images: `docker images`
 - [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
 - [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
+
+**Helpful Links:**
+- [x] [docker server connection issues](https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues)
