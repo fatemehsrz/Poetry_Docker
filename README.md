@@ -1,6 +1,6 @@
 
 
-**Dockering in VS code with .venv envioroment:**
+**Dockerizing in VS code with .venv envioroment:**
 - [x] Install docker: `sudo apt  install docker.io`
 - [x] Install poetry `pip install poetry`
 - [x] Create a docker file for your flask application. You can find an example [here](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
