@@ -58,21 +58,21 @@
 `│       ├── __init__.py`  <br>
 `│       └── classes.py`  <br>
 `└── test` <br>
-    `└── test_azureblob.py`  <br>
+`    └── test_azureblob.py`  <br>
 
     
-`{`
-   ` "version": "0.2.0",`
-    `"configurations": [`
-        {
-            "name": "Python: Module",
-            "type": "python",
-            "request": "launch",
-            "module": "test_azureblob",
-            "env": {"PYTHONPATH": "${workspaceFolder}/../backend"}
-        }
-   ` ]`
-`}`
+`{` <br>
+   ` "version": "0.2.0",` <br>
+    `"configurations": [` <br>
+        `{`  <br>
+            `"name": "Python: Module",` <br>
+            `"type": "python",`  <br>
+            `"request": "launch",` <br>
+            `"module": "test_azureblob",` <br>
+            `"env": {"PYTHONPATH": "${workspaceFolder}/../backend"}` <br>
+        `}`  <br>
+   ` ]` <br>
+`}` <br>
 
 
 
