@@ -50,7 +50,9 @@
 - [x] `pip install pyzmq==25.1.2`
 
 
-**How to reference the parent directory in VSCode**
+**How to reference the parent directory with launch.json**
+
+
 
 `$workspaceFolder` <br>
 `├── backend` <br>
@@ -74,7 +76,7 @@
 `      ]` <br>
 `}` <br>
 
-
+[Tutorial Link](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
 
 **How to use env file**
 
