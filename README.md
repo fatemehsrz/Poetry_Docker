@@ -91,5 +91,3 @@
 - [x] [Referencing a parent directory](https://k0nze.dev/posts/python-relative-imports-vscode/)
 - [x] [docker server connection issues](https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues)
 
-If a poetry.lock exists, it just installs the packages specified by the lock file.
-If no poetry.lock exists, it acts like poetry update and tries to resolve dependencies in pyproject.toml, create a poetry.lock, and then installs them.
