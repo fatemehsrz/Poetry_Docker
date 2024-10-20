@@ -1,7 +1,7 @@
 
 # Dockerizing a Flask Project
 
-**Dockerizing with Poetry**
+**Dockerizing a Python Poetry project**
 - [x] Install docker `sudo apt install docker.io`
 - [x] Install poetry `pip install poetry`
 - [x] Create a docker file like this [example](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
