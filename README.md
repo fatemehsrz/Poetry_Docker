@@ -62,16 +62,16 @@
 
     
 `{` <br>
-   ` "version": "0.2.0",` <br>
-    `"configurations": [` <br>
-        `{`  <br>
-            `"name": "Python: Module",` <br>
-            `"type": "python",`  <br>
-            `"request": "launch",` <br>
-            `"module": "test_azureblob",` <br>
-            `"env": {"PYTHONPATH": "${workspaceFolder}/../backend"}` <br>
-        `}`  <br>
-   ` ]` <br>
+`      "version": "0.2.0",` <br>
+`      "configurations": [` <br>
+`           {`  <br>
+`              "name": "Python: Module",` <br>
+`              "type": "python",`  <br>
+`              "request": "launch",` <br>
+`              "module": "test_azureblob",` <br>
+`              "env": {"PYTHONPATH": "${workspaceFolder}/../backend"}` <br>
+`            }`  <br>
+`      ]` <br>
 `}` <br>
 
 
