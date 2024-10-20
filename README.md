@@ -49,6 +49,33 @@
 - [x] `python -m pip uninstall pyzmq`
 - [x] `pip install pyzmq==25.1.2`
 
+
+**How to reference the parent directory in VSCode**
+
+`$workspaceFolder`
+`├── backend`
+`│   └── my_package`
+`│       ├── __init__.py`
+`│       └── classes.py`
+`└── test`
+    `└── test_azureblob.py`
+
+    
+`{`
+   ` "version": "0.2.0",`
+    `"configurations": [`
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "test_azureblob",
+            "env": {"PYTHONPATH": "${workspaceFolder}/../backend"}
+        }
+   ` ]`
+`}`
+
+
+
 **How to use env file**
 
 - [x] `import os`
