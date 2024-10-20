@@ -49,7 +49,7 @@
 - [x] `python -m pip uninstall pyzmq`
 - [x] `pip install pyzmq==25.1.2`
 
-**env file**
+**How to use env file**
 
 - [x] `import os`
 - [x] `from dotenv import load_dotenv`
