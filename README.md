@@ -23,7 +23,7 @@
 - [x]  `docker login kidev.azurecr.io`
 - [x]  `docker build -t USER_NAME/kicamp_frontend:0.0.1 .`
 - [x]  `docker tag USER_NAME/kicamp_frontend:0.0.1 kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
-- [x]  `docker push kidev.azurecr.io/fatemeh001/kicamp_frontend:0.0.1`
+- [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 
 
 **Pre-commit**
