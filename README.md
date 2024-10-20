@@ -52,13 +52,13 @@
 
 **How to reference the parent directory in VSCode**
 
-`$workspaceFolder`
-`├── backend`
-`│   └── my_package`
-`│       ├── __init__.py`
-`│       └── classes.py`
-`└── test`
-    `└── test_azureblob.py`
+`$workspaceFolder` <br>
+`├── backend` <br>
+`│   └── my_package`  <br>
+`│       ├── __init__.py`  <br>
+`│       └── classes.py`  <br>
+`└── test` <br>
+    `└── test_azureblob.py`  <br>
 
     
 `{`
