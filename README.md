@@ -50,9 +50,7 @@
 - [x] `pip install pyzmq==25.1.2`
 
 
-**How to reference the parent directory with launch.json**
-
-
+**How to reference a parent directory with launch.json**
 
 `$workspaceFolder` <br>
 `├── backend` <br>
@@ -76,7 +74,7 @@
 `      ]` <br>
 `}` <br>
 
-[Tutorial Link](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
+
 
 **How to use env file**
 
@@ -88,6 +86,9 @@
 
 
 **Helpful Links:**
+
+- [x] [Video for referencing a parent directory](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
+- [x] [Referencing a parent directory](https://k0nze.dev/posts/python-relative-imports-vscode/)
 - [x] [docker server connection issues](https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues)
 
 If a poetry.lock exists, it just installs the packages specified by the lock file.
