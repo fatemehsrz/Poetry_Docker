@@ -71,7 +71,7 @@
 - [x] `pwd`
 - [x] `cd `
 - [x] `cd ..`
-- [x] `cd -`
+- [x] `cd ~-`
 - [x] `sudo apt install gimp`
 - [x] `chmod +x script`
 - [x] `cat long_text_file.txt`
