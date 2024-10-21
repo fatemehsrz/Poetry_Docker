@@ -135,12 +135,8 @@
 
 
 
-
-
-
-
 **Helpful Links:**
-
+- [x] [Deployment with Docker and Poetry](https://github.com/caheredia/pybay2023/tree/main)
 - [x] [Video for referencing a parent directory](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
 - [x] [Referencing a parent directory](https://k0nze.dev/posts/python-relative-imports-vscode/)
 - [x] [docker server connection issues](https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues)
