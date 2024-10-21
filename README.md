@@ -77,11 +77,11 @@
 - [x] `cat long_text_file.txt`
 - [x] `nano file.txt`
 - [x] `ping google.com`
-- [x] `ssh salehi@sever_name.de`
+- [x] `ssh salehi@server_name.de`
 - [x] `source venv/bin/activate`
 - [x] `cp file_to_copy.txt new_file.txt`
 - [x] `cp -r dir_to_copy/ new_copy_dir/` 
-- [x] `scp -r  ~/workspace/file.txt salehi@something.de:~/practice ` 
+- [x] `scp -r  ~/workspace/file.txt salehi@server_name.de:~/practice ` 
 - [x] `rm file_to_copy.txt`
 - [x] `rm -rf Ego_Twitter` 
 - [x] `rm -r dir_to_remove/`
