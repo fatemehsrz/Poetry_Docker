@@ -63,7 +63,9 @@
 - [x] `pip show gensim`
 - [x] `pip freeze`
 - [x] `python -m pip check` 
-- [x] `pip install git+https://github.com/Unbabel/COMET.git` 
+- [x] `pip install -r requirements.txt`
+- [x] `pip install --quiet  --upgrade gensim`
+- [x] `pip install git+https://github.com/Unbabel/COMET.git`
 
 **Terminal Basic Commands**
 
