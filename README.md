@@ -65,7 +65,7 @@
 - [x] `python -m pip check` 
 - [x] `pip install git+https://github.com/Unbabel/COMET.git` 
 
-**Termianl Basic Commands**
+**Terminal Basic Commands**
 
 - [x] `ls`
 - [x] `pwd`
