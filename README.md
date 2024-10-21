@@ -99,6 +99,11 @@
 - [x] `passwd`
 - [x] `whoami`
 - [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
+- [x] `sudo apt install openssh-server`
+- [x] `sudo systemctl status ssh`
+- [x] `sudo ufw allow ssh`
+- [x] `ip a`
+- [x] `ping -c 4 www.google.com`
 - [x] `shutdown`
 
 
