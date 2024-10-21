@@ -98,7 +98,7 @@
 - [x] `history`
 - [x] `passwd`
 - [x] `whoami`
-- [x] `wget`
+- [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
 - [x] `shutdown`
 
 
