@@ -49,6 +49,62 @@
 - [x] `python -m pip uninstall pyzmq`
 - [x] `pip install pyzmq==25.1.2`
 
+**How to use env file**
+
+- [x] `import os`
+- [x] `from dotenv import load_dotenv`
+- [x] `load_dotenv()`
+- [x] `GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')`
+
+
+**Basic pip Commands**
+
+- [x] `pip list`
+- [x] `pip show gensim`
+- [x] `pip freeze`
+- [x] `python -m pip check` 
+- [x] `pip install git+https://github.com/Unbabel/COMET.git` 
+
+**Termianl Basic Commands**
+
+- [x] `ls`
+- [x] `pwd`
+- [x] `cd `
+- [x] `cd ..`
+- [x] `cd -`
+- [x] `cp file_to_copy.txt new_file.txt`
+- [x] `cp -r dir_to_copy/ new_copy_dir/` 
+- [x] `scp -r  ~/workspace/file.txt salehi@something.de:~/practice ` 
+- [x] `rm file_to_copy.txt`  
+- [x] `rm -rf Ego_Twitter` 
+- [x] `rm -r dir_to_remove/`
+- [x] `mv command_list.txt commands/`
+- [x] `mv /home/kinsta/BestMoviesOfAllTime ./`  
+- [x] `mkdir images/`
+- [x] `mkdir -p movies/2004/`
+- [x] `touch -m old_file`
+- [x] `chmod +x script`
+- [x] `exit`
+- [x] `sudo apt install gimp`
+- [x] `sudo cd /root/ `
+- [x] `htop`
+- [x] `unzip images.zip`
+- [x] `cat long_text_file.txt`
+- [x] `nano file.txt`
+- [x] `ssh salehi@sever_name.de`
+- [x] `source venv/bin/activate`
+- [x] `ps`
+- [x] `ping google.com`
+- [x] `history`
+- [x] `passwd`
+- [x] `whoami`
+- [x] `wget`
+- [x] `passwd`
+- [x] `passwd`
+
+
+
+
 
 **How to reference a parent directory with launch.json**
 
@@ -76,12 +132,7 @@
 
 
 
-**How to use env file**
 
-- [x] `import os`
-- [x] `from dotenv import load_dotenv`
-- [x] `load_dotenv()`
-- [x] `GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')`
 
 
 
