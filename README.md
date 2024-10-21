@@ -99,11 +99,6 @@
 - [x] `passwd`
 - [x] `whoami`
 - [x] `wget`
-- [x] `passwd`
-- [x] `passwd`
-
-
-
 
 
 **How to reference a parent directory with launch.json**
