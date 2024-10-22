@@ -102,6 +102,7 @@
 - [x] `whoami`
 - [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
 - [x] `curl -fsSL nebula-up.siwei.io/install.sh | bash`
+- [x] `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [x] `sudo apt install openssh-server`
 - [x] `sudo systemctl status ssh`
 - [x] `sudo ufw allow ssh`
