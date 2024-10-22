@@ -75,7 +75,7 @@
 - [x] `cd ..`
 - [x] `cd ~-`
 - [x] `sudo apt install gimp`
-- [x] `chmod +x script`
+- [x] `chmod +x file_name.sh`
 - [x] `cat long_text_file.txt`
 - [x] `nano file.txt`
 - [x] `ping google.com`
