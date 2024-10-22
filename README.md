@@ -101,7 +101,7 @@
 - [x] `passwd`
 - [x] `whoami`
 - [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
-- [x] `curl -u demo:password -O ftp://test.rebex.net/readme.txt`
+- [x] `curl -fsSL nebula-up.siwei.io/install.sh | bash`
 - [x] `sudo apt install openssh-server`
 - [x] `sudo systemctl status ssh`
 - [x] `sudo ufw allow ssh`
@@ -139,6 +139,7 @@
 **Helpful Links:**
 - [x] [Deployment with Docker and Poetry](https://github.com/caheredia/pybay2023/tree/main)
 - [x] [Video for referencing a parent directory](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
+- [x] [curl Command in Linux](https://explainshell.com/explain?cmd=curl+-fsSL+example.org)
 - [x] [Referencing a parent directory](https://k0nze.dev/posts/python-relative-imports-vscode/)
 - [x] [docker server connection issues](https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues)
 
