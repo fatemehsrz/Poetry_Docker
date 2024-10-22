@@ -107,6 +107,7 @@
 - [x] `sudo systemctl status ssh`
 - [x] `sudo ufw allow ssh`
 - [x] `ip a`
+- [x] `ip -4 a`
 - [x] `ping -c 4 www.google.com`
 - [x] `shutdown`
 
