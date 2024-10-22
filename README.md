@@ -101,6 +101,7 @@
 - [x] `passwd`
 - [x] `whoami`
 - [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
+- [x] `curl -u demo:password -O ftp://test.rebex.net/readme.txt`
 - [x] `sudo apt install openssh-server`
 - [x] `sudo systemctl status ssh`
 - [x] `sudo ufw allow ssh`
