@@ -57,7 +57,7 @@
 - [x] `GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')`
 
 
-**Basic pip Commands**
+**Pip Basic Commands**
 
 - [x] `pip list`
 - [x] `pip show gensim`
