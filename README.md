@@ -18,7 +18,7 @@
 - [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
 - [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
 
-**Azure Container Docker Image**
+**Azure Container**
 
 - [x]  `docker login kidev.azurecr.io`
 - [x]  `docker build -t USER_NAME/kicamp_frontend:0.0.1 .`
