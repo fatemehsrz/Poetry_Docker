@@ -62,7 +62,7 @@
 - [x] `pip list`
 - [x] `pip show gensim`
 - [x] `pip freeze`
-- [x] `python -m pip check` 
+- [x] `pip check` 
 - [x] `pip install -r requirements.txt`
 - [x] `pip install --quiet  --upgrade gensim`
 - [x] `pip install git+https://github.com/Unbabel/COMET.git`
