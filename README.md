@@ -132,6 +132,32 @@ class DataPipeline(ABC):
       
         self.logger.info("[+] fetched documents sucessfully") 
 ```
+
+
+**Pydantic Base Models**
+```
+from datetime import date
+from uuid import UUID, uuid4
+from enum import Enum
+from pydantic import BaseModel, EmailStr
+
+class Department(Enum):
+    HR = "HR"
+    SALES = "SALES"
+    IT = "IT"
+    ENGINEERING = "ENGINEERING"
+
+class Employee(BaseModel):
+    employee_id: UUID = uuid4()
+    name: str
+    email: EmailStr
+    date_of_birth: date
+    salary: float
+    department: Department
+    elected_benefits: bool
+```
+[More here](https://realpython.com/python-pydantic/)
+
 **Python Argparse** 
 
 
@@ -144,22 +170,20 @@ data_utils = TextLoader(input= './data/emotion_dataset.csv', device= 'cpu' )
 
 parser= argparse.ArgumentParser( description= "load data")
 parser.add_argument ("action_type", help= "action_type" )
-
 args= parser.parse_args()
 
 if args.action_type=="cleantext":
 
-df= data_utils.load_data()
-df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
-print("text" , df["Text"].tolist()[:3]) 
+   df= data_utils.load_data()
+   df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
+   print("text" , df["Text"].tolist()[:3]) 
 
 
 if args.action_type=="savefile":
 
-df= data_utils.load_data()
-df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
-
-data_utils .save_csv(df)
+    df= data_utils.load_data()
+    df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
+    data_utils .save_csv(df)
 ```
 
 **How to reference a parent directory with launch.json**
