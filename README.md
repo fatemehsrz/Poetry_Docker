@@ -135,6 +135,8 @@ class DataPipeline(ABC):
 
 
 **Pydantic Base Models**
+
+Pydantic is a powerful data validation and settings management library for Python, engineered to enhance the robustness and reliability of your codebase. [More here](https://realpython.com/python-pydantic/)
 ```
 from datetime import date
 from uuid import UUID, uuid4
@@ -156,7 +158,7 @@ class Employee(BaseModel):
     department: Department
     elected_benefits: bool
 ```
-[More here](https://realpython.com/python-pydantic/)
+
 
 **Python Argparse** 
 
