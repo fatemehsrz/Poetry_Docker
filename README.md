@@ -118,9 +118,8 @@
 import logging
 from abc import ABC, abstractmethod
 
-
 class DataPipeline(ABC):
-   
+  
     def __init__(self) -> None:
     
         logging.basicConfig( level=logging.INFO, filename="ingestionpipelinelogger.log",
