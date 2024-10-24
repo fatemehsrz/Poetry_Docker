@@ -32,7 +32,32 @@
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
 
+**Logging and Abstract Class and Method**
 
+```
+import logging
+from abc import ABC, abstractmethod
+
+
+class DataPipeline(ABC):
+   
+    def __init__(self) -> None:
+        logging.basicConfig(
+            level=logging.INFO,
+            filename="ingestionpipelinelogger.log",
+            filemode="w",
+            format="%(asctime)s %(levelname)s %(message)s",
+        )
+        self.logger = logging.getLogger()
+
+    @abstractmethod
+    def fetch_documents(self) -> None:
+      
+        self.logger.info("[+] fetched documents sucessfully") 
+        
+```
+        
+        
 **FastAPI visual server test:**
 
 - [x] `pip install fastapi`
