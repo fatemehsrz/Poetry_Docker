@@ -176,7 +176,7 @@ args= parser.parse_args()
 if args.action_type=="cleantext":
    df= data_utils.load_data()
    df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
-   print("text" , df["Text"].tolist()[:3]) 
+
 
 if args.action_type=="savefile":
     df= data_utils.load_data()
