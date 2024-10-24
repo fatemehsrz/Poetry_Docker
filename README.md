@@ -167,7 +167,6 @@ class Employee(BaseModel):
 from utils import TextLoader
 import argparse
 
-
 data_utils = TextLoader(input= './data/emotion_dataset.csv', device= 'cpu' ) 
 
 parser= argparse.ArgumentParser( description= "load data")
@@ -179,7 +178,6 @@ if args.action_type=="cleantext":
    df= data_utils.load_data()
    df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
    print("text" , df["Text"].tolist()[:3]) 
-
 
 if args.action_type=="savefile":
 
