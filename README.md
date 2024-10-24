@@ -32,7 +32,7 @@
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
 
-**Logging and Abstract Class and Method**
+**Python Logging, Abstract Class and Methods**
 
 ```
 import logging
@@ -42,11 +42,9 @@ from abc import ABC, abstractmethod
 class DataPipeline(ABC):
    
     def __init__(self) -> None:
-        logging.basicConfig(
-            level=logging.INFO,
-            filename="ingestionpipelinelogger.log",
-            filemode="w",
-            format="%(asctime)s %(levelname)s %(message)s",
+    
+        logging.basicConfig( level=logging.INFO, filename="ingestionpipelinelogger.log",
+            filemode="w",  format="%(asctime)s %(levelname)s %(message)s",
         )
         self.logger = logging.getLogger()
 
@@ -139,29 +137,33 @@ class DataPipeline(ABC):
 
 **How to reference a parent directory with launch.json**
 
-`$workspaceFolder` <br>
-`├── backend` <br>
-`│   └── my_package`  <br>
-`│       ├── __init__.py`  <br>
-`│       └── classes.py`  <br>
-`└── test` <br>
-`    └── test_azureblob.py`  <br>
+```
+$workspaceFolder
+├── backend
+│   └── my_package 
+│       ├── __init__.py 
+│       └── classes.py 
+└── test
+    └── test_azureblob.py 
 
-    
-`{` <br>
-`      "version": "0.2.0",` <br>
-`      "configurations": [` <br>
-`           {`  <br>
-`              "name": "Python: Module",` <br>
-`              "type": "python",`  <br>
-`              "request": "launch",` <br>
-`              "module": "test_azureblob",` <br>
-`              "env": {"PYTHONPATH": "${workspaceFolder}/../backend"}` <br>
-`            }`  <br>
-`      ]` <br>
-`}` <br>
+```
 
 
+```
+{
+  "version": "0.2.0",
+   "configurations": [
+        {
+           "name": "Python: Module",
+           "type": "python",
+           "request": "launch",
+            "module": "test_azureblob",
+            "env": {"PYTHONPATH": "${workspaceFolder}/../backend"}
+            }
+     ]
+}
+
+```
 
 **Helpful Links:**
 - [x] [Deployment with Docker and Poetry](https://github.com/caheredia/pybay2023/tree/main)
