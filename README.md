@@ -131,7 +131,6 @@ class DataPipeline(ABC):
     def fetch_documents(self) -> None:
       
         self.logger.info("[+] fetched documents sucessfully") 
-        
 ```
 **Python Argparse** 
 
@@ -161,7 +160,6 @@ df= data_utils.load_data()
 df["Text"] = df["Text"].apply(lambda x: data_utils.clean_text(x))
 
 data_utils .save_csv(df)
-
 ```
 
 **How to reference a parent directory with launch.json**
@@ -191,7 +189,6 @@ $workspaceFolder
             }
      ]
 }
-
 ```
 
 **Helpful Links:**
