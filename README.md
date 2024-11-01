@@ -176,6 +176,7 @@ print(f'{valid_length(stt)=}')
 from typing import Callable, Any
 flatten = lambda target: sum((flatten(sub) if isinstance(sub, list) else [sub] for sub in target), [])
 nested_list= [1, [2, [3, 4], 5], [6, 7], 8, [[[[[[9, 10], 11]]]]]]   
+flatten(nested_list)
 
 # Generate a secret password
 from secrets import choice
