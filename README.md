@@ -31,6 +31,7 @@
 - [x] `poetry shell`
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
+- [x] [pre-commit hooks](https://pre-commit.com/)
 
         
 ## FastAPI visual server test
