@@ -180,8 +180,7 @@ nested_list= [1, [2, [3, 4], 5], [6, 7], 8, [[[[[[9, 10], 11]]]]]]
 # Generate a secret password
 from secrets import choice
 from string import ascii_letters, digits, punctuation
-from typing import Callable
-pass_gen: Callable[[int], str] = lambda x: ''.join(choice(ascii_letters + digits + punctuation) for _ in range(x))
+pass_gen = lambda x: ''.join(choice(ascii_letters + digits + punctuation) for _ in range(x))
 print(pass_gen(4))
 
 # Get email from content 
