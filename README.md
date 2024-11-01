@@ -174,7 +174,8 @@ print(f'{valid_length(stt)=}')
 
 # Nested list flatten
 from typing import Callable, Any
-flatten = lambda target: sum((flatten(sub) if isinstance(sub, list) else [sub] for sub in target), [])
+flatten = lambda target: sum((flatten(sub) if isinstance(sub, list) 
+                                           else [sub] for sub in target), [])
 nested_list= [1, [2, [3, 4], 5], [6, 7], 8, [[[[[[9, 10], 11]]]]]]   
 flatten(nested_list)
 
