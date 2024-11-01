@@ -186,7 +186,8 @@ pass_gen(4)
 
 # Get email from content 
 text= "hhehhkejklajurkd salehi@some-server.de ökfsfgfdsn"
-get_emails = lambda text: re.findall(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text)
+get_emails = lambda text: re.findall(r'\b[A-Za-z0-9._%+-]+
+                                  @[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text)
 get_emails(text)
 ```
 
