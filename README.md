@@ -1,7 +1,7 @@
 
 # Dockerizing a Flask Project
 
-**Dockerizing a Poetry project**
+## Dockerizing a Poetry project
 - [x] Install docker `sudo apt install docker.io`
 - [x] Install poetry `pip install poetry`
 - [x] Create a docker file like this [example](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
@@ -12,13 +12,13 @@
 - [x] Build the docker image: `docker build -t docker_test:0.0.1 .`
 - [x] Run the docker image: `docker run -p 5000:5000 -t -i docker_test:0.0.1`
 
-**Docker Hub:**
+## Docker Hub 
 
 - [x] Check docker images: `docker images`
 - [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
 - [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
 
-**Azure Container**
+## Azure Container
 
 - [x]  `docker login kidev.azurecr.io`
 - [x]  `docker build -t USER_NAME/kicamp_frontend:0.0.1 .`
@@ -26,14 +26,14 @@
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 
 
-**Pre-commit**
+## Pre-commit
 
 - [x] `poetry shell`
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
 
         
-**FastAPI visual server test:**
+## FastAPI visual server test
 
 - [x] `pip install fastapi`
 - [x] `pip install uvicorn`
@@ -42,14 +42,14 @@
 - [x] `uvicorn main:app port=800`
 
 
-**Notebook in VSCode:**
+## Notebook in VSCode
 
 - [x]  activate the .venv enviorment `.venv\Scripts\activate`
 - [x] `pip install notebook`
 - [x] `python -m pip uninstall pyzmq`
 - [x] `pip install pyzmq==25.1.2`
 
-**How to use env file**
+## How to use env file
 
 - [x] `import os`
 - [x] `from dotenv import load_dotenv`
@@ -57,7 +57,7 @@
 - [x] `GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')`
 
 
-**Pip Basic Commands**
+## Pip Basic Commands
 
 - [x] `pip list`
 - [x] `pip show gensim`
@@ -67,7 +67,7 @@
 - [x] `pip install --quiet  --upgrade gensim`
 - [x] `pip install git+https://github.com/Unbabel/COMET.git`
 
-**Terminal Basic Commands**
+## Terminal Basic Commands 
 
 - [x] `ls`
 - [x] `pwd`
@@ -112,7 +112,7 @@
 - [x] `shutdown`
 
 
-**Python Logging, Abstract Class and Methods**
+## Python Logging, Abstract Class and Methods
 
 ```
 import logging
@@ -133,7 +133,7 @@ class DataPipeline(ABC):
 ```
 
 
-**Pydantic Base Models**
+## Pydantic Base Models
 
 Pydantic is a powerful data validation library for Python, engineered to enhance the robustness and reliability of the codebase. [More here](https://realpython.com/python-pydantic/)
 ```
@@ -193,7 +193,7 @@ get_emails(text)
 ```
 
 
-**Python Argparse** 
+## Python Argparse
 
 
 ```
@@ -216,7 +216,7 @@ if args.action_type=="savefile":
     data_utils .save_csv(df)
 ```
 
-**How to reference a parent directory with launch.json**
+## How to reference a parent directory with launch.json
 
 ```
 $workspaceFolder
@@ -241,7 +241,7 @@ $workspaceFolder
 }
 ```
 
-**Helpful Links:**
+## Helpful Links
 - [x] [Deployment with Docker and Poetry](https://github.com/caheredia/pybay2023/tree/main)
 - [x] [Video for referencing a parent directory](https://www.youtube.com/watch?app=desktop&v=Ad-inC3mJfU&ab_channel=k0nze)
 - [x] [curl Command in Linux](https://explainshell.com/explain?cmd=curl+-fsSL+example.org)
