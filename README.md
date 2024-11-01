@@ -163,7 +163,7 @@ class Employee(BaseModel):
 ```
 # Easy reversing
 phrase: str = 'Hello, Bob!'
-print(phrase[::-1])
+phrase[::-1]
 
 # If statement  in return
 def valid_length_elvis(user_input: str) -> str:
@@ -182,12 +182,12 @@ flatten(nested_list)
 from secrets import choice
 from string import ascii_letters, digits, punctuation
 pass_gen = lambda x: ''.join(choice(ascii_letters + digits + punctuation) for _ in range(x))
-print(pass_gen(4))
+pass_gen(4)
 
 # Get email from content 
 text= "hhehhkejklajurkd salehi@some-server.de ökfsfgfdsn"
 get_emails = lambda text: re.findall(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text)
-print(get_emails(text))
+get_emails(text)
 ```
 
 
