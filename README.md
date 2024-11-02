@@ -185,6 +185,10 @@ pass_gen = lambda x: ''.join(choice(ascii_letters + digits + punctuation) for _ 
 # Get email from content 
 get_emails = lambda text: re.findall(r'\b[A-Za-z0-9._%+-]+
                                   @[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text)
+                                  
+upper_case = list(map(lambda x: x.upper(), ['apple', 'banana', 'cherry']))                                  
+                                  
+sentence = ' '.join(words)                              
 ```
 
 
