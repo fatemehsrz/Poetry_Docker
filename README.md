@@ -32,20 +32,7 @@
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
 - [x] `.pre-commit-config.yaml`  [here](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
-
-```
-repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
-    hooks:
-    -   id: check-yaml
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
--   repo: https://github.com/psf/black
-    rev: 19.3b0
-    hooks:
-    -   id: black
-```    
+  
 
         
 ## FastAPI visual server test
