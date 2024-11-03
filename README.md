@@ -31,7 +31,7 @@
 - [x] `poetry shell`
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
-- [x] `.pre-commit-config.yaml` ](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
+- [x] [`.pre-commit-config.yaml`](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
   
 
         
