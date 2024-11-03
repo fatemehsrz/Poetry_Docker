@@ -168,7 +168,7 @@ class DataPipeline(ABC):
 
 ## Pydantic Base Models
 
-Pydantic is a powerful data validation library for Python, engineered to enhance the robustness and reliability of the codebase. [More here](https://realpython.com/python-pydantic/)
+Pydantic is a powerful data validation library for Python, engineered to enhance the robustness and reliability of the codebase. [`import pydantic`](https://realpython.com/python-pydantic/)
 ```
 from datetime import date
 from uuid import UUID, uuid4
