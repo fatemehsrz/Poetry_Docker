@@ -4,8 +4,8 @@
 ## Dockerizing a Poetry project
 - [x] Install docker `sudo apt install docker.io`
 - [x] Install poetry `pip install poetry`
-- [x] Create a docker file like this [example](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
-- [x] Create a [.toml file](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml)
+- [x] Create a docker file like this [`example`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
+- [x] Create a [`.toml file`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml)
 - [x] Add dependencies there e.g. `poetry add Flask==2.1.2` and set dicrectory name: `name = "poetry_docker"`
 - [x] Run `poetry lock` which creates a `poetry.lock` file
 - [x] Run `poetry install`
@@ -31,7 +31,7 @@
 - [x] `poetry shell`
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
-- [x] `.pre-commit-config.yaml`  [here](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
+- [x] `.pre-commit-config.yaml` ](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
   
 
         
