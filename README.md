@@ -76,7 +76,7 @@
 - [x] `git reset [file]`
 - [x] `git diff` 
 - [x] `git diff branchB...branchA`
-- [x] `git commit -m “[descriptive message]”`
+- [x] `git commit -m "[descriptive message]"`
 - [x] `git init`
 - [x] `git branch [branch-name]`
 - [x] `git status`
@@ -92,8 +92,8 @@
 - [x] `git reset --hard [commit]`
 - [x] `git stash`
 - [x] `cat -<EOF > .gitignore`, `/logs-*`
-- [x] Commit message `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
-- [x] [More here](https://education.github.com/git-cheat-sheet-education.pdf)
+- [x] `git commit -m "feat: ..."`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
+
 
 
 
