@@ -93,6 +93,7 @@
 - [x] `git stash`
 - [x] `cat -<EOF > .gitignore`, `/logs-*`
 - [x] Commit message `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
+- [x] [More here](https://education.github.com/git-cheat-sheet-education.pdf)
 
 
 
