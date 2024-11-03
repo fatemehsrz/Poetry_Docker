@@ -71,9 +71,9 @@
 
 ## Git Basic Commands
 
-- `git add .`
-- `git add [file]`
-- `git reset [file]`
+- [x] `git add .`
+- [x] `git add [file]`
+- [x] `git reset [file]`
 - [x] `git diff` 
 - [x] `git diff branchB...branchA`
 - [x] `git commit -m “[descriptive message]”`
