@@ -92,7 +92,7 @@
 - [x] `git pull [alias]`
 - [x] `git reset --hard [commit]`
 - [x] `git stash`
-- [x] `cat -<EOF > .gitignore`,  [`/logs-*`](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [x]  [`cat -<EOF > .gitignore`](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [x] `git commit -m "feat: ..."`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
 
 
