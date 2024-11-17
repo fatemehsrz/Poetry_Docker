@@ -222,34 +222,6 @@ upper_case = list(map(lambda x: x.upper(), ['apple', 'banana', 'cherry']))
                                   
 sentence = ' '.join(words)
 
-# Easy reversing
-phrase: str = 'Hello, Bob!'
-phrase[::-1]
-
-# If statement  in return
-def valid_length_elvis(user_input: str) -> str:
-    return 'Yes case' if len(user_input) > 10 else 'No case'
- 
- 
-# Nested list flatten
-from typing import Callable, Any
-flatten = lambda target: sum((flatten(sub) if isinstance(sub, list) 
-                                           else [sub] for sub in target), [])
-                                           
-# Generate a secret password
-from secrets import choice
-from string import ascii_letters, digits, punctuation
-pass_gen = lambda x: ''.join(choice(ascii_letters + digits + punctuation) for _ in range(x))
-
-
-# Get email from content 
-get_emails = lambda text: re.findall(r'\b[A-Za-z0-9._%+-]+
-                                  @[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', text)
-                                  
-upper_case = list(map(lambda x: x.upper(), ['apple', 'banana', 'cherry']))                                  
-
-sentence = ' '.join(words)
-
 print("%.2f" % a)
 print("%.2f" % round(a, 2))
 print("{:.2f}".format(a))                                                                                    
