@@ -104,7 +104,7 @@
 - [x] `ls`
 - [x] `ls -a` shows hidden files and directories in the current directory.
 - [x] `ls -l` displays the contents of the current directory in a long listing format
-- [x] `ls -t` The most recently modified file is displayed first as the file is sorted by modification time
+- [x] `ls -t` displays the most recently modified file first as the file 
 - [x] `pwd`
 - [x] `cd `
 - [x] `cd ..`
