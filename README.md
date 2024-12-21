@@ -102,7 +102,7 @@
 ## Terminal Basic Commands 
 
 - [x] `ls`
-- [x] `ls -a` show hidden files and directories in the current directory.
+- [x] `ls -a` shows hidden files and directories in the current directory.
 - [x] `ls -l` displays the contents of the current directory in a long listing format
 - [x] `pwd`
 - [x] `cd `
