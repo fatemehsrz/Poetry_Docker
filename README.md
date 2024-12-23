@@ -132,7 +132,7 @@
 - [x] `sudo cd /root/ `
 - [x] `htop`
 - [x] `unzip images.zip`
-- [x] `ps`
+- [x] `ps` reports a snapshot of the current processes.
 - [x] `history`
 - [x] `passwd`
 - [x] `whoami`
