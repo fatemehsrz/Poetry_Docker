@@ -103,6 +103,7 @@
 
 - [x] `python3 --version`
 - [x] `python3 -m venv py_env`
+- [x] `source py_env/bin/activate`
 - [x] `ls`
 - [x] `ls -a` shows hidden files and directories in the current directory.
 - [x] `ls -l` displays the contents of the current directory in a long listing format
