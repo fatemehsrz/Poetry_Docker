@@ -63,7 +63,7 @@
 - [x] `pip install -qU langchain-openai`
 - [x] `pip install -r requirements.txt`
 - [x] `pip install --quiet  --upgrade gensim`
-- [x] 
+- [x] ``
 - [x] `pip list`
 - [x] `pip show gensim`
 - [x] `pip freeze`
@@ -102,11 +102,11 @@
 
 ## Terminal Basic Commands 
 - [x] `source venv/bin/activate`
-- [x] 
+- [x] ``
 - [x] `python3 --version`
 - [x] `python3 -m venv envt`
 - [x] `source envt/bin/activate`
-- [x] 
+- [x]  ``
 - [x] `ls`
 - [x] `ls -a` shows hidden files and directories in the current directory.
 - [x] `ls -l` displays the contents of the current directory in a long listing format
