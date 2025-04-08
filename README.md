@@ -60,13 +60,14 @@
 
 
 ## Pip Basic Commands
-
+- [x] `pip install -qU langchain-openai`
+- [x] `pip install -r requirements.txt`
+- [x] `pip install --quiet  --upgrade gensim`
+- [x] `                            `
 - [x] `pip list`
 - [x] `pip show gensim`
 - [x] `pip freeze`
 - [x] `pip check` 
-- [x] `pip install -r requirements.txt`
-- [x] `pip install --quiet  --upgrade gensim`
 - [x] `pip install git+https://github.com/Unbabel/COMET.git`
 
 
