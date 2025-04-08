@@ -101,7 +101,8 @@
 
 
 ## Terminal Basic Commands 
-- [x] `source venv/bin/activate`
+- [x] `.venv\Scripts\activate`
+- [x] `source .venv/bin/activate`
 - [x] `                    `
 - [x] `python3 --version`
 - [x] `python3 -m venv envt`
