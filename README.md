@@ -72,7 +72,7 @@
 
 
 ## Git Basic Commands
-
+- [x] `git --log --oneline --graph --decorate `
 - [x] `git add .`
 - [x] `git add [file]`
 - [x] `git reset [file]`
