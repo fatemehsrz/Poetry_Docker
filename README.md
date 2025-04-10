@@ -105,8 +105,8 @@
 - [x] `source .venv/bin/activate`
 - [x] `                    `
 - [x] `python3 --version`
-- [x] `python3 -m venv envt`
-- [x] `source envt/bin/activate`
+- [x] `python3 -m venv .venv `
+- [x] `source .venv/bin/activate`
 - [x]  `                  `
 - [x] `ls`
 - [x] `ls -a` shows hidden files and directories in the current directory.
