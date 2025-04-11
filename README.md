@@ -72,7 +72,7 @@
 
 
 ## Git Basic Commands
-- [x] `git log --oneline --graph --decorate `
+- [x] `git log --oneline --graph --decorate --all`
 - [x] `git add .`
 - [x] `git add [file]`
 - [x] `git reset [file]`
@@ -86,7 +86,7 @@
 - [x] `git checkout -- [file]`
 - [x] `git merge [branch]`
 - [x] `git rebase [branch]`
-- [x]  `     `
+- [x]  `                  `
 - [x] `git log [-n count]`
 - [x] `git show [SHA]`
 - [x] `git push [alias] [branch]`
