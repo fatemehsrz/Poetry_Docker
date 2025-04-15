@@ -25,6 +25,49 @@
 - [x]  `docker tag USER_NAME/kicamp_frontend:0.0.1 kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 
+## Git Basic Commands
+
+- [x] `git branch test1`
+- [x] `git switch test1`
+- [ ] `git pull`
+- [x] `git checkout -b test1`
+- [x] `git push -u origin test1`
+- [x] `pre-commit run --all-files`
+- [x] `git add .` 
+- [x] `git commit -m "updates"`
+- [x] `git push`
+- [x] `git rebase`
+- [x] `git merge main`
+- [x] `git switch main`
+- [x] `git pull`
+- [x] `                   `                  
+
+- [x] `git log --oneline --graph --decorate --all`
+- [x] `git add .`
+- [x] `git add [file]`
+- [x] `git reset [file]`
+- [x] `git diff` 
+- [x] `git diff branchB...branchA`
+- [x] `git commit -m "[descriptive message]"`
+- [x] `git init`
+- [x] `git branch [branch-name]`
+- [x] `git status`
+- [x] `git checkout [-b][branch_name]`
+- [x] `git checkout -- [file]`
+- [x] `git merge [branch]`
+- [x] `git rebase [branch]`
+- [x]  `                  `
+- [x] `git log [-n count]`
+- [x] `git show [SHA]`
+- [x] `git push [alias] [branch]`
+- [x] `git fetch [alias]`
+- [x] `git pull [alias]`
+- [x] `git reset --hard [commit]`
+- [x] `git stash`
+- [x]  [`cat -<EOF > .gitignore`](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [x] `git commit -m "feat: ..."`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
+
+
 
 ## Pre-commit
 
@@ -70,32 +113,6 @@
 - [x] `pip check` 
 - [x] `pip install git+https://github.com/Unbabel/COMET.git`
 
-
-## Git Basic Commands
-- [x] `git log --oneline --graph --decorate --all`
-- [x] `git add .`
-- [x] `git add [file]`
-- [x] `git reset [file]`
-- [x] `git diff` 
-- [x] `git diff branchB...branchA`
-- [x] `git commit -m "[descriptive message]"`
-- [x] `git init`
-- [x] `git branch [branch-name]`
-- [x] `git status`
-- [x] `git checkout [-b][branch_name]`
-- [x] `git checkout -- [file]`
-- [x] `git merge [branch]`
-- [x] `git rebase [branch]`
-- [x]  `                  `
-- [x] `git log [-n count]`
-- [x] `git show [SHA]`
-- [x] `git push [alias] [branch]`
-- [x] `git fetch [alias]`
-- [x] `git pull [alias]`
-- [x] `git reset --hard [commit]`
-- [x] `git stash`
-- [x]  [`cat -<EOF > .gitignore`](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
-- [x] `git commit -m "feat: ..."`, `fix:`, `docs:`, `refactor:`, `test:`, `style:`, `chore:`
 
 
 
