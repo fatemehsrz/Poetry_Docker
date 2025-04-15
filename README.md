@@ -70,12 +70,29 @@
 
 
 ## Pre-commit
-
+- [x] `pip install pre-commit`
 - [x] `poetry shell`
 - [x] `pre-commit run --all-files`
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
+- [x] `git add .pre-commit-config.yaml`
+- [x] `git commit -m "Add pre-commit configuration"`
+- [x] `git push origin main`
 - [x] [`.pre-commit-config.yaml`](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
-  
+
+```
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+    -   id: black
+```
+
 
         
 ## FastAPI visual server test
