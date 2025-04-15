@@ -26,11 +26,11 @@
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 
 ## Git Basic Commands
-- [x] `git branch test1`
-- [x] `git switch test1`
-- [ ] `git pull`
-- [x] `git checkout -b test1`
-- [x] `git push -u origin test1`
+- [x] `git branch test`
+- [x] `git switch test`
+- [x] `git pull`
+- [x] `git checkout -b test`
+- [x] `git push -u origin test`
 - [x] `pre-commit run --all-files`
 - [x] `git add .` 
 - [x] `git commit -m "updates"`
