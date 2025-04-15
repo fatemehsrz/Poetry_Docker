@@ -28,9 +28,9 @@
 ## Git Basic Commands
 - [x] `git branch test`
 - [x] `git switch test`
-- [x] `git pull`
 - [x] `git checkout -b test`
 - [x] `git push -u origin test`
+- [x] `git pull`
 - [x] `pre-commit run --all-files`
 - [x] `git add .` 
 - [x] `git commit -m "updates"`
