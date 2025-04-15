@@ -26,7 +26,6 @@
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 
 ## Git Basic Commands
-
 - [x] `git branch test1`
 - [x] `git switch test1`
 - [ ] `git pull`
@@ -41,7 +40,6 @@
 - [x] `git switch main`
 - [x] `git pull`
 - [x] `                   `                  
-
 - [x] `git log --oneline --graph --decorate --all`
 - [x] `git add .`
 - [x] `git add [file]`
