@@ -41,7 +41,7 @@ COPY --from=frontend /usr/static static
 EXPOSE 8000
 
 CMD ["poetry", "run", "hypercorn", "--bind", "0.0.0.0", "app:app"]
-#########################################
+###############################################################################
 
 FROM python:3.10-slim as builder
 
