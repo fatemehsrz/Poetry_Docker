@@ -83,16 +83,12 @@ repos:
     rev: v2.3.0
     hooks:
       - id: check-yaml
-        exclude: ^(frontend|devops)/
       - id: end-of-file-fixer
-        exclude: ^(frontend|devops)/
       - id: trailing-whitespace
-        exclude: ^(frontend|devops)/
   - repo: https://github.com/psf/black
     rev: 22.10.0
     hooks:
       - id: black
-        exclude: ^(frontend|devops)/
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v3.1.0
