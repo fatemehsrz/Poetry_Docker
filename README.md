@@ -24,7 +24,7 @@
 - [x]  `docker build -t USER_NAME/kicamp_frontend:0.0.1 .`
 - [x]  `docker tag USER_NAME/kicamp_frontend:0.0.1 kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
-- [x]  Privileged Identity Management
+- [x]  `Privileged Identity Management`
 
 ## Git Basic Commands
 - [x] `git branch test`
