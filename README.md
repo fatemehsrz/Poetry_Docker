@@ -141,7 +141,7 @@ repos:
 
 ## Terminal Basic Commands 
 - [x] `.venv\Scripts\activate`
-- [x] .venv\Scripts\Activate.bat
+- [x]  `.venv\Scripts\Activate.bat`
 - [x] `source .venv/bin/activate`
 - [x] `                    `
 - [x] `python3 --version`
