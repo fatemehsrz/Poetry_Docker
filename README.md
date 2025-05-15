@@ -26,6 +26,63 @@
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 - [x]  `Privileged Identity Management`
 
+
+
+## Terminal Basic Commands 
+- [x] `.venv\Scripts\activate`
+- [x]  `.venv\Scripts\Activate.bat`
+- [x] `source .venv/bin/activate`
+- [x] `                    `
+- [x] `python3 --version`
+- [x] `python3 -m venv .venv `
+- [x] `source .venv/bin/activate`
+- [x]  `                  `
+- [x] `ls`
+- [x] `ls -a` shows hidden files and directories in the current directory.
+- [x] `ls -l` displays the contents of the current directory in a long listing format
+- [x] `ls -t` displays the most recently modified file first as the file 
+- [x] `pwd`
+- [x] `cd `
+- [x] `cd ..`
+- [x] `cd ~-`
+- [x] `sudo apt install gimp`
+- [x] `chmod +x file_name.sh`
+- [x] `cat long_text_file.txt`
+- [x] `nano file.txt`
+- [x] `ping google.com`
+- [x] `ssh salehi@server_name.de`
+- [x] `source venv/bin/activate`
+- [x] `cp file_to_copy.txt new_file.txt`
+- [x] `cp -r dir_to_copy/ new_copy_dir/` 
+- [x] `scp -r  ~/workspace/file.txt salehi@server_name.de:~/practice ` 
+- [x] `rm file_to_copy.txt`
+- [x] `rm -rf Ego_Twitter` 
+- [x] `rm -r dir_to_remove/`
+- [x] `mv command_list.txt commands/`
+- [x] `mv /home/kinsta/BestMoviesOfAllTime ./` 
+- [x] `mkdir images/`
+- [x] `mkdir -p movies/2004/`
+- [x] `touch -c file.txt`
+- [x] `touch -m file.txt`
+- [x] `exit`
+- [x] `sudo cd /root/ `
+- [x] `htop`
+- [x] `unzip images.zip`
+- [x] `ps` reports a snapshot of the current processes.
+- [x] `history`
+- [x] `passwd`
+- [x] `whoami`
+- [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
+- [x] `curl -fsSL nebula-up.siwei.io/install.sh | bash`
+- [x] `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- [x] `sudo apt install openssh-server`
+- [x] `sudo systemctl status ssh`
+- [x] `sudo ufw allow ssh`
+- [x] `ip a`
+- [x] `ip -4 a`
+- [x] `ping -c 4 www.google.com`
+- [x] `shutdown`
+
 ## Git Basic Commands
 - [x] `git branch test`
 - [x] `git switch test`
@@ -138,62 +195,6 @@ repos:
 
 
 
-
-
-## Terminal Basic Commands 
-- [x] `.venv\Scripts\activate`
-- [x]  `.venv\Scripts\Activate.bat`
-- [x] `source .venv/bin/activate`
-- [x] `                    `
-- [x] `python3 --version`
-- [x] `python3 -m venv .venv `
-- [x] `source .venv/bin/activate`
-- [x]  `                  `
-- [x] `ls`
-- [x] `ls -a` shows hidden files and directories in the current directory.
-- [x] `ls -l` displays the contents of the current directory in a long listing format
-- [x] `ls -t` displays the most recently modified file first as the file 
-- [x] `pwd`
-- [x] `cd `
-- [x] `cd ..`
-- [x] `cd ~-`
-- [x] `sudo apt install gimp`
-- [x] `chmod +x file_name.sh`
-- [x] `cat long_text_file.txt`
-- [x] `nano file.txt`
-- [x] `ping google.com`
-- [x] `ssh salehi@server_name.de`
-- [x] `source venv/bin/activate`
-- [x] `cp file_to_copy.txt new_file.txt`
-- [x] `cp -r dir_to_copy/ new_copy_dir/` 
-- [x] `scp -r  ~/workspace/file.txt salehi@server_name.de:~/practice ` 
-- [x] `rm file_to_copy.txt`
-- [x] `rm -rf Ego_Twitter` 
-- [x] `rm -r dir_to_remove/`
-- [x] `mv command_list.txt commands/`
-- [x] `mv /home/kinsta/BestMoviesOfAllTime ./` 
-- [x] `mkdir images/`
-- [x] `mkdir -p movies/2004/`
-- [x] `touch -c file.txt`
-- [x] `touch -m file.txt`
-- [x] `exit`
-- [x] `sudo cd /root/ `
-- [x] `htop`
-- [x] `unzip images.zip`
-- [x] `ps` reports a snapshot of the current processes.
-- [x] `history`
-- [x] `passwd`
-- [x] `whoami`
-- [x] `wget https://github.com/fatemehsrz/MLflow_Tutorial/blob/main/MLflow_Tutorial.ipynb`
-- [x] `curl -fsSL nebula-up.siwei.io/install.sh | bash`
-- [x] `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-- [x] `sudo apt install openssh-server`
-- [x] `sudo systemctl status ssh`
-- [x] `sudo ufw allow ssh`
-- [x] `ip a`
-- [x] `ip -4 a`
-- [x] `ping -c 4 www.google.com`
-- [x] `shutdown`
 
 
 ## Python Logging, Abstract Class and Methods
