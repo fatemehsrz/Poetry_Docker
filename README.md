@@ -246,6 +246,10 @@ class Employee(BaseModel):
 ## One-liner
 
 ```
+
+f'hanning{num}.pdf'
+
+
 # Easy reversing
 phrase: str = 'Hello, Bob!'
 phrase[::-1]
