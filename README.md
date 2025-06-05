@@ -249,6 +249,9 @@ class Employee(BaseModel):
 
 f'hanning{num}.pdf'
 
+current_dictory = os.getcwd()
+file_path = f"{current_dictory}/{file_name}"
+
 
 # Easy reversing
 phrase: str = 'Hello, Bob!'
