@@ -26,6 +26,11 @@
 - [x]  `docker push kidev.azurecr.io/USER_NAME/kicamp_frontend:0.0.1`
 - [x]  `Privileged Identity Management`
 
+- [ ] docker login mycontianer.azurecr.io
+- [ ] docker build -t myimage:0.0.1 .
+- [ ] docker tag myimage:0.0.1 mycontianer.azurecr.io/myimage:0.0.1
+- [ ] docker push mycontianer.azurecr.io/myimage:0.0.1
+
 
 
 ## Terminal Basic Commands 
