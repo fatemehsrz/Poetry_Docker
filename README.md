@@ -1,39 +1,9 @@
 
-# Dockerizing a Flask Project
-
-## Dockerizing a Poetry project
-- [x] Install docker `sudo apt install docker.io`
-- [x] Install poetry `pip install poetry`
-- [x] Create a docker file like this [`example`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
-- [x] Create a [`.toml file`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml)
-- [x] Add dependencies there e.g. `poetry add Flask==2.1.2` and set dicrectory name: `name = "poetry_docker"`
-- [x] Run `poetry lock` which creates a `poetry.lock` file
-- [x] Run `poetry install`
-- [x] Build the docker image: `docker build -t docker_test:0.0.1 .`
-- [x] Run the docker image: `docker run -p 5000:5000 -t -i docker_test:0.0.1`
-
-## Docker Hub 
-
-- [x] Check docker images: `docker images`
-- [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
-- [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
-
-## Azure Container
-
-- [ ] `docker login mycontianer.azurecr.io`
-- [ ] `docker build -t myimage:0.0.1 .`
-- [ ] `docker tag myimage:0.0.1 mycontianer.azurecr.io/myimage:0.0.1`
-- [ ] `docker push mycontianer.azurecr.io/myimage:0.0.1`
-- [ ] `docker run -d -p 8080:80 myimage:0.0.1`
-- [ ] `docker run -it myimage:0.0.1 bash`
-
-
-
 ## Terminal Basic Commands 
 - [x] `.venv\Scripts\activate`
 - [x]  `.venv\Scripts\Activate.bat`
 - [x] `source .venv/bin/activate`
-- [x] `                    `
+- [x] `.venv\Scripts\Activate.ps1`
 - [x] `python3 --version`
 - [x] `python3 -m venv .venv `
 - [x] `source .venv/bin/activate`
@@ -98,7 +68,7 @@
 - [x] `git merge main`
 - [x] `git switch main`
 - [x] `git pull`
-- [x] `                   `                  
+- [x] `git revert`                  
 - [x] `git log --oneline --graph --decorate --all`
 - [x] `git add .`
 - [x] `git add [file]`
@@ -165,6 +135,36 @@ repos:
 - [x] `uvicorn restapi:app --reload`
 - [x] `uvicorn backend.api.restapi:app --reload`
 - [x] `uvicorn main:app port=800`
+
+
+# Dockerizing a Flask Project
+
+## Dockerizing a Poetry project
+- [x] Install docker `sudo apt install docker.io`
+- [x] Install poetry `pip install poetry`
+- [x] Create a docker file like this [`example`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/Dockerfile).
+- [x] Create a [`.toml file`](https://github.com/fatemehsrz/Poetry_Docker/blob/main/pyproject.toml)
+- [x] Add dependencies there e.g. `poetry add Flask==2.1.2` and set dicrectory name: `name = "poetry_docker"`
+- [x] Run `poetry lock` which creates a `poetry.lock` file
+- [x] Run `poetry install`
+- [x] Build the docker image: `docker build -t docker_test:0.0.1 .`
+- [x] Run the docker image: `docker run -p 5000:5000 -t -i docker_test:0.0.1`
+
+## Docker Hub 
+
+- [x] Check docker images: `docker images`
+- [x] Push image to the docker hub: `docker push USER_NAME/docker_test:0.0.1`
+- [x] Pull image from the docker hub: `docker pull USER_NAME/docker_test:0.0.1`
+
+## Azure Container
+
+- [ ] `docker login mycontianer.azurecr.io`
+- [ ] `docker build -t myimage:0.0.1 .`
+- [ ] `docker tag myimage:0.0.1 mycontianer.azurecr.io/myimage:0.0.1`
+- [ ] `docker push mycontianer.azurecr.io/myimage:0.0.1`
+- [ ] `docker run -d -p 8080:80 myimage:0.0.1`
+- [ ] `docker run -it myimage:0.0.1 bash`
+
 
 
 ## Notebook in VSCode
