@@ -221,7 +221,7 @@ class DataPipeline(ABC):
 ## Talk to GPT
 
 ```
-def talk_to_gpt(user_message:str):
+def talk_to_gpt(user_message:str, system_prompt:str)-> str:
     chat_client= AzureOpenAI(
                 api_version= "2024-12-01" ,
                 azure_endpoint=os.getenv("endpoint"),
