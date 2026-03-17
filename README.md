@@ -215,7 +215,31 @@ class DataPipeline(ABC):
     @abstractmethod
     def fetch_documents(self) -> None:
       
-        self.logger.info("[+] fetched documents sucessfully") 
+        self.logger.info("[+] fetched documents sucessfully")
+
+
+def talk_to_gpt(user_message:str):
+    chat_client= AzureOpenAI(
+                api_version= "2024-12-01" ,
+                azure_endpoint=os.getenv("endpoint"),
+                api_key= os.getenv("api_key") )
+
+    response = chat_client.chat.completions.create(
+                        messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user",   "content": user_message}
+                ],
+                        model="gpt-5-mini",
+                        max_completion_tokens=4096,
+                        seed=42
+                )
+
+    return response.choices[0].message
+
+
+print(talk_to_gpt("where is Stuttgart?"))
+
+
 ```
 
 
