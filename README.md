@@ -216,8 +216,11 @@ class DataPipeline(ABC):
     def fetch_documents(self) -> None:
       
         self.logger.info("[+] fetched documents sucessfully")
+```
 
+## Talk to GPT
 
+```
 def talk_to_gpt(user_message:str):
     chat_client= AzureOpenAI(
                 api_version= "2024-12-01" ,
