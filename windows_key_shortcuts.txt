@@ -1,0 +1,101 @@
+WINDOWS KEY SHORTCUTS - COMPLETE LIST
+======================================
+
+WIN ALONE
+---------
+Win                  Open/close Start menu
+
+
+WIN + LETTERS
+-------------
+Win + A              Open Quick Settings (Action Center)
+Win + B              Focus on taskbar notification area
+Win + C              Open Copilot (Windows 11)
+Win + D              Show/hide Desktop
+Win + E              Open File Explorer
+Win + F              Open Feedback Hub
+Win + G              Open Xbox Game Bar
+Win + H              Start voice typing
+Win + I              Open Settings
+Win + J              Focus on a Windows tip (if available)
+Win + K              Open Cast/Connect panel
+Win + L              Lock your PC
+Win + M              Minimize all windows
+Win + N              Open Notification Center
+Win + O              Lock screen orientation
+Win + P              Open Project display options (screen mirroring)
+Win + Q              Open Search
+Win + R              Open Run dialog
+Win + S              Open Search
+Win + T              Cycle through taskbar apps
+Win + U              Open Accessibility settings
+Win + V              Open Clipboard history
+Win + W              Open Widgets
+Win + X              Open Quick Link menu (Power User menu)
+Win + Y              Switch input between desktop and Mixed Reality
+Win + Z              Open Snap Layouts
+
+
+WIN + NUMBERS
+-------------
+Win + 0-9            Open/switch to app pinned at that position on taskbar
+Win + Shift + 0-9    Open a new instance of pinned taskbar app
+Win + Alt + 0-9      Open Jump List of pinned taskbar app
+
+
+WIN + FUNCTION KEYS
+-------------------
+Win + F1             Open Windows Help in browser
+Win + F4             (No default action - varies by app)
+
+
+WIN + ARROW KEYS
+----------------
+Win + Left           Snap window to left half
+Win + Right          Snap window to right half
+Win + Up             Maximize window
+Win + Down           Minimize / restore window
+Win + Shift + Left/Right    Move window to another monitor
+Win + Shift + Up     Stretch window vertically to full height
+Win + Shift + Down   Restore/minimize vertical stretch
+
+
+WIN + SPECIAL KEYS
+------------------
+Win + Space          Switch keyboard input language/layout
+Win + Tab            Open Task View
+Win + Enter          Open Narrator
+Win + Esc            Exit Magnifier or accessibility tool
+Win + Home           Minimize all windows except active one
+Win + PrtScn         Take screenshot & save to Screenshots folder
+Win + Shift + S      Open Snipping Tool (partial screenshot)
+Win + + (Plus)       Open and zoom in with Magnifier
+Win + - (Minus)      Zoom out with Magnifier
+Win + . (Period)     Open Emoji & symbol picker
+Win + ; (Semicolon)  Open Emoji & symbol picker
+Win + , (Comma)      Peek at desktop temporarily
+Win + Pause/Break    Open System Properties
+
+
+WIN + CTRL COMBINATIONS
+-----------------------
+Win + Ctrl + D           Create new virtual desktop
+Win + Ctrl + F4          Close current virtual desktop
+Win + Ctrl + Left/Right  Switch between virtual desktops
+Win + Ctrl + F           Search for PCs on network
+
+
+WIN + SHIFT COMBINATIONS
+------------------------
+Win + Shift + M      Restore minimized windows
+Win + Shift + S      Open Snipping Tool (partial screenshot)
+
+
+TOP PICKS FOR DAILY PRODUCTIVITY
+---------------------------------
+Win + E              Open File Explorer
+Win + L              Lock your PC
+Win + D              Show/hide Desktop
+Win + V              Open Clipboard history
+Win + Shift + S      Open Snipping Tool
+Win + Z              Open Snap Layouts
