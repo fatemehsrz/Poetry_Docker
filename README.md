@@ -103,6 +103,7 @@
 - [x] `pre-commit run --files [chunking.py, queue_data.py]`
 - [x] `git add .pre-commit-config.yaml`
 - [x] `git commit -m "Add pre-commit configuration"`
+- [x] `git commit -a -m "message" `
 - [x] `git push origin main`
 - [x] [`.pre-commit-config.yaml`](https://verdantfox.com/blog/how-to-use-git-pre-commit-hooks-the-hard-way-and-the-easy-way)
 
