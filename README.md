@@ -55,6 +55,7 @@
 - [x] `shutdown`
 
 ## Poetry
+- [x] `pip install poetry`
 - [x] `poetry init`
 - [x] `poetry add "fastapi>=0.100,<1.0"`
 - [x] `poetry add --group dev pytest ruff black mypy`
