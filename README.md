@@ -53,6 +53,9 @@
 - [x] `ip -4 a`
 - [x] `ping -c 4 www.google.com`
 - [x] `shutdown`
+- [ ] poetry init
+- [ ] poetry add "fastapi>=0.100,<1.0"
+- [ ] poetry add --group dev pytest ruff black mypy
 
 ## Git Basic Commands
 - [x] `git branch test`
