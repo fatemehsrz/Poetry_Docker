@@ -58,8 +58,10 @@
 - [x] `poetry init`
 - [x] `poetry add "fastapi>=0.100,<1.0"`
 - [x] `poetry add --group dev pytest ruff black mypy`
-- [ ] 
+
+
 ```
+
 [tool.poetry.dependencies]
 python = "^3.11"
 requests = "^2.31"        # needed to scrape → ships with package
@@ -68,7 +70,9 @@ beautifulsoup4 = "^4.12"  # needed to parse  → ships with package
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0"   # you need to test it  → stays on your machine
 ruff = "^0.4"     # you need to lint it  → stays on your machine
-black = "^24.0"   # you need to format   → stays on your machine ```
+black = "^24.0"   # you need to format   → stays on your machine
+
+```
 
 
 
