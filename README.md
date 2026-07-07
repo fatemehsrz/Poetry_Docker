@@ -1,5 +1,6 @@
 
 ## Terminal Basic Commands 
+- [x]  `source .venv/bin/activate`
 - [x] `.venv\Scripts\activate`
 - [x]  `.venv\Scripts\Activate.bat`
 - [x] `source .venv/bin/activate`
