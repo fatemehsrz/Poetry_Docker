@@ -86,8 +86,7 @@ black = "^24.0"   # you need to format   → stays on your machine
 - [x] `git branch test`
 - [x] `git switch test`
 - [x] `git push -u origin test`
-- [ ]
-- [ ] `git checkout -b test`
+- [x] `git checkout -b test`
 - [x] `git pull`
 - [x] `pre-commit run --all-files`
 - [x] `git add .` 
