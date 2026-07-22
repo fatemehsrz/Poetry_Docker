@@ -2,6 +2,10 @@
 ## Terminal Basic Commands 
 - [x]  `source .venv/bin/activate`
 - [x]   `      `
+- [x] `git branch test`
+- [x] `git switch test`
+- [x] `git push -u origin test`
+- [x]   `      `
 - [x] `.venv\Scripts\activate`
 - [x]  `.venv\Scripts\Activate.bat`
 - [x] `source .venv/bin/activate`
@@ -9,7 +13,6 @@
 - [x] `python3 --version`
 - [x] `python3 -m venv .venv `
 - [x] `source .venv/bin/activate`
-- [x]  `                  `
 - [x] `ls`
 - [x] `ls -a` shows hidden files and directories in the current directory.
 - [x] `ls -l` displays the contents of the current directory in a long listing format
@@ -82,8 +85,9 @@ black = "^24.0"   # you need to format   → stays on your machine
 ## Git Basic Commands
 - [x] `git branch test`
 - [x] `git switch test`
-- [x] `git checkout -b test`
 - [x] `git push -u origin test`
+- [ ]
+- [ ] `git checkout -b test`
 - [x] `git pull`
 - [x] `pre-commit run --all-files`
 - [x] `git add .` 
